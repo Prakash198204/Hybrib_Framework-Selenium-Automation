@@ -9,7 +9,7 @@
       <class name="testcases.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validLoginTest" invocation-numbers="0 1"/>
+          <include name="validLoginTest" invocation-numbers="0 2"/>
           <include name="setupBrowser"/>
         </methods>
       </class> <!-- testcases.LoginTest -->
