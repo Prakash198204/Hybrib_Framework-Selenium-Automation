@@ -55,7 +55,6 @@ public class Utility {
 	}
 	
 	
-	
 
 	public static void clickElement(WebDriver driver, By locator) {
 		WebElement element = null;
@@ -106,6 +105,7 @@ public class Utility {
 		}
 		return element;
 	}
+
 
 	public static WebElement waitForWebElement(WebDriver driver, By locator, int timeToWait) {
 		// default wait is 30 seconds
